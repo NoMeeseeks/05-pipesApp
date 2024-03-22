@@ -18,15 +18,18 @@ export class MenuComponent {
         items: [
           {
             label: 'Texto y Fechas',
-            icon: PrimeIcons.ALIGN_LEFT
+            icon: PrimeIcons.ALIGN_LEFT,
+            routerLink: ' '
           },
           {
             label: 'Numeros',
-            icon: 'pi pi-dollar'
+            icon: 'pi pi-dollar',
+            routerLink: 'numbers'
           },
           {
             label: 'No Comunes',
-            icon: 'pi pi-globe'
+            icon: 'pi pi-globe',
+            routerLink: 'uncommon'
           }
         ]
       },
