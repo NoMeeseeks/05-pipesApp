@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem, PrimeIcons } from 'primeng/api';
 
 @Component({
   selector: 'shared-menu',
@@ -14,11 +14,11 @@ export class MenuComponent {
     this.menuItems = [
       {
         label: 'Pipes de Angular',
-        icon: 'pi pi-desktop',
+        icon: PrimeIcons.DESKTOP,
         items: [
           {
             label: 'Texto y Fechas',
-            icon: 'pi pi-align-left'
+            icon: PrimeIcons.ALIGN_LEFT
           },
           {
             label: 'Numeros',

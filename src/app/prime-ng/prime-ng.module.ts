@@ -1,16 +1,20 @@
 import { NgModule } from '@angular/core';
 import { MenuModule } from 'primeng/menu';
-import { Menubar, MenubarModule } from 'primeng/menubar';
-
+import { MenubarModule } from 'primeng/menubar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [],
   imports: [
     MenuModule,
-    MenubarModule
+    MenubarModule,
+
+    BrowserAnimationsModule,
   ], exports: [
     MenuModule,
-    MenubarModule
+    MenubarModule,
+
+    BrowserAnimationsModule,
   ]
 })
 export class PrimeNgModule { }
